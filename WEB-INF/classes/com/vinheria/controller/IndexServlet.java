@@ -2,6 +2,8 @@ package com.vinheria.controller;
 
 import com.vinheria.dao.ProdutoDAO;
 import com.vinheria.model.Produto;
+import javax.servlet.*;
+import javax.servlet.http.*;
 import java.io.IOException;
 import java.util.List;
 
