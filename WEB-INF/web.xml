@@ -75,7 +75,8 @@
         </cookie-config>
     </session-config>
 
-    <!-- Configuração de encoding -->
+    <!-- Configuração de encoding - Temporariamente desabilitado para teste -->
+    <!--
     <filter>
         <filter-name>CharacterEncodingFilter</filter-name>
         <filter-class>com.vinheria.util.CharacterEncodingFilter</filter-class>
@@ -85,6 +86,7 @@
         <filter-name>CharacterEncodingFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+    -->
 
     <!-- Configuração de erro -->
     <error-page>
