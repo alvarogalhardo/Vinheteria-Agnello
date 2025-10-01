@@ -3,6 +3,7 @@
     "container": "TOMCAT8"
   },
   "build": {
-    "type": "maven"
+    "type": "maven",
+    "goal": "package"
   }
 }
