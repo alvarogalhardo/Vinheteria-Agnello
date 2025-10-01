@@ -50,15 +50,6 @@
     <build>
         <finalName>vinheria-agnello</finalName>
         <sourceDirectory>WEB-INF/classes</sourceDirectory>
-        <resources>
-            <resource>
-                <directory>WEB-INF/classes</directory>
-                <includes>
-                    <include>**/*.class</include>
-                    <include>**/*.properties</include>
-                </includes>
-            </resource>
-        </resources>
         
         <plugins>
             <plugin>
@@ -69,7 +60,6 @@
                     <source>8</source>
                     <target>8</target>
                     <encoding>UTF-8</encoding>
-                    <sourceDirectory>WEB-INF/classes</sourceDirectory>
                 </configuration>
             </plugin>
             
@@ -79,17 +69,6 @@
                 <version>3.2.3</version>
                 <configuration>
                     <webXml>WEB-INF/web.xml</webXml>
-                    <webResources>
-                        <resource>
-                            <directory>.</directory>
-                            <includes>
-                                <include>*.jsp</include>
-                                <include>*.css</include>
-                                <include>*.js</include>
-                                <include>*.html</include>
-                            </includes>
-                        </resource>
-                    </webResources>
                 </configuration>
             </plugin>
         </plugins>
