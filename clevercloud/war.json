@@ -1,0 +1,11 @@
+{
+  "deploy": {
+    "container": "TOMCAT8",
+    "war": [
+      {
+        "file": "vinheria-agnello.war",
+        "context": "/vinheria-agnello"
+      }
+    ]
+  }
+}
