@@ -1,12 +1,6 @@
 {
   "deploy": {
-    "container": "TOMCAT8",
-    "war": [
-      {
-        "file": "vinheria-agnello.war",
-        "context": "/"
-      }
-    ]
+    "container": "TOMCAT8"
   },
   "build": {
     "type": "maven"
